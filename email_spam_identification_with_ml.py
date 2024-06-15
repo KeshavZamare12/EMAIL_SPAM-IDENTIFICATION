@@ -29,14 +29,13 @@ import matplotlib.pyplot as plt
 from tqdm.auto import tqdm
 import time
 
-from google.colab import drive
-drive.mount('/content/drive')
+
 
 """# Data Loading
 ---
 """
 
-df = pd.read_csv('/content/drive/My Drive/Oasis Infobyte/Data Science - Internship/Email-Spam-Detection/spam.csv', encoding='latin-1')
+df = pd.read_csv('d:/Email-Spam-Detection/spam.csv', encoding='latin-1')
 
 df
 
